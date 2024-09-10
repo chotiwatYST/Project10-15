@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auspicious Fish Feeding Machine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #cf45b1;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            color: white;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            display: flex;
+            background-color: white;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            max-width: 1200px;
+            transition: transform 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        .image {
+            flex: 1;
+            max-width: 40%;
+        }   
+        .image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .content {
+            flex: 2;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .content h2 {
+            color: #0066cc;
+            margin: 0 0 10px;
+            font-size: 1.8em;
+        }
+        .content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .text-center {
+            text-align: center;
+            margin: 40px auto;
+        }
+        .text-center h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .text-center label {
+            font-size: 1.2em;
+            color: #666;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .image, .content {
+                max-width: 100%;
+                flex: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Auspicious Fish Feeding Machine</h1>
+    </header>
+
+    <div class="text-center">
+        <h2>อุปกรณ์ IoT</h2>
+        <label>ระบบจำหน่ายอาหารปลาอัตโนมัติ</label>
+    </div>
+
+    <div class="container">
+        <div class="image">
+            <img src="assets/pin/pin0.png" alt="ESP32">
+        </div>
+        <div class="content">
+            <h2>ESP32</h2>
+            <p>ESP32 คือ ชิปไมโครคอนโทรลเลอร์ขนาดเล็กแต่ทรงพลัง ที่มาพร้อมกับความสามารถในการเชื่อมต่อ Wi-Fi และ Bluetooth ในตัว 
+                ทำให้เป็นตัวเลือกที่ได้รับความนิยมอย่างมากสำหรับการพัฒนาอุปกรณ์ IoT (Internet of Things) หรืออุปกรณ์ที่สามารถเชื่อมต่ออินเทอร์เน็ตได้หลากหลายประเภท</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+            <img src="assets/pin/pin1.png" alt="LCD Display">
+        </div>
+        <div class="content">
+            <h2>LCD Display</h2>
+            <p>LCD ย่อมาจาก Liquid Crystal Display หรือ จอภาพผลึกเหลว เป็นเทคโนโลยีที่ใช้ในการแสดงผลภาพบนอุปกรณ์อิเล็กทรอนิกส์ต่างๆ 
+                ที่เราพบเห็นในชีวิตประจำวันมากมาย เช่น โทรศัพท์มือถือ คอมพิวเตอร์ โทรทัศน์ และแท็บเล็ต</p>
+        </div>
+    </div> 
+
+    <div class="container">
+        <div class="image">
+            <img src="assets/pin/pin2.png" alt="Breadboard">
+        </div>
+        <div class="content">
+            <h2>Breadboard</h2>
+            <p>อุปกรณ์ที่ใช้สำหรับทดลองวงจรอิเล็กทรอนิกส์ มีลักษณะเป็นแผ่นพลาสติกที่มีรูเล็กๆ เรียงกันเป็นแถวและคอลัมน์ 
+                ภายในรูเหล่านี้จะมีตัวนำไฟฟ้าเชื่อมต่อกันในรูปแบบที่กำหนดไว้ ทำให้เราสามารถเสียบขาของอุปกรณ์อิเล็กทรอนิกส์ต่างๆ 
+                ลงไปในรูเหล่านี้เพื่อเชื่อมต่อวงจรได้อย่างง่ายดาย</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+            <img src="assets/pin/pin3.png" alt="รูปภาพ">
+        </div>
+        <div class="content">
+            <h2>JumperWire Male to Male</h2>
+            <p>สายจั๊มเปอร์ตัวผู้ทั้งสองข้าง นั้นเป็นสายไฟชนิดหนึ่งที่ใช้สำหรับเชื่อมต่อจุดต่างๆ บนวงจรอิเล็กทรอนิกส์ 
+                โดยเฉพาะอย่างยิ่งเมื่อใช้งานร่วมกับ โพรโทบอร์ด หรือ แผ่นทดลองวงจร</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+          <img src="assets/pin/pin4.png" alt="รูปภาพ">
+        </div>
+        <div class="content">
+            <h2>JumperWire Male to Female</h2>
+            <p>สายไฟ Jumper ผู้-เมีย หรือที่เรียกกันทั่วไปว่า สายจั๊มเปอร์ นั้นเป็นอุปกรณ์ที่สำคัญอย่างยิ่งสำหรับผู้ที่ทำงานกับวงจรอิเล็กทรอนิกส์
+                 โดยเฉพาะอย่างยิ่งเมื่อใช้งานร่วมกับ โพรโทบอร์ด หรือ แผ่นทดลองวงจร</p>
+        </div>
+    </div>   
+
+    <div class="container">
+        <div class="image">
+          <img src="assets/pin/pin5.png" alt="รูปภาพ">
+        </div>
+        <div class="content">
+            <h2>Push Button Switch</h2>
+            <p>สวิตซ์ปุ่มกด เป็นอุปกรณ์ทางไฟฟ้า ซึ่งทำหน้าที่ตัดและต่อวงจรทางไฟฟ้าและ 
+                ใช้ในการควบคุมการทำงานของมอเตอร์ หรือการทำงานของเครื่องจักรต่างๆ เป็นเหมือนอุปกรณ์พื้นฐาน ใช้ได้กับอุตสาหกรรมทั่วไป 
+                มีทั้งแบบมีไฟ และทึบแสง</p>
+        </div>
+    </div>  
+
+    <div class="container">
+        <div class="image">
+          <img src="assets/pin/pin6.png" alt="รูปภาพ">
+        </div>
+        <div class="content">
+            <h2>LED Strip</h2>
+            <p>เป็นแหล่งกำเนิดแสงชนิดหนึ่งที่ประกอบด้วยหลอด LED ขนาดเล็กจำนวนมากเรียงต่อกันบนแผงวงจรพิมพ์แบบยืดหยุ่น ทำให้สามารถนำไปติดตั้งได้หลากหลายรูปแบบ
+                ไม่ว่าจะเป็นการติดตรง หรือติดโค้งตามรูปทรงต่างๆ</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+          <img src="assets/pin/pin7.png" alt="รูปภาพ">
+        </div>
+        <div class="content">
+            <h2>SRF-05</h2>
+            <p>เป็นโมดูลเซ็นเซอร์ที่ใช้ในการวัดระยะทาง โดยอาศัยหลักการส่งคลื่นอัลตร้าโซนิค 
+                (คลื่นเสียงความถี่สูง) ออกไป แล้วรับคลื่นที่สะท้อนกลับมา โดยการวัดระยะเวลาที่คลื่นใช้ในการเดินทางไปกลับ 
+                เราสามารถคำนวณหาระยะห่างระหว่างเซ็นเซอร์กับวัตถุได้</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+          <img src="assets/pin/pin8.png" alt="รูปภาพ">
+        </div>
+        <div class="content">
+            <h2>MP3 MusicPlayer Module</h2>
+            <p>โมดูลเล่นเพลง MP3: พกพาเสียงเพลงไปทุกที่
+                โมดูลเล่นเพลง MP3 ที่รองรับ SD Card และ FlashDrive พร้อม Jack 3.5 นั้นเป็นอุปกรณ์อิเล็กทรอนิกส์ขนาดเล็กที่ออกแบบมาเพื่อให้คุณสามารถเล่นไฟล์เพลงในรูปแบบ
+                 MP3 ได้จากแหล่งเก็บข้อมูลต่างๆ เช่น SD Card หรือ Flash Drive โดยสามารถต่อออกสู่หูฟังหรือลำโพงผ่านช่องเสียบ Jack 3.5mm ได้โดยตรง</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+          <img src="assets/pin/pin9.png" alt="รูปภาพ">
+        </div>
+        <div class="content">
+            <h2>Speaker</h2>
+            <p>ลำโพง คือ อุปกรณ์อิเล็กทรอนิกส์ชนิดหนึ่งที่มีหน้าที่หลักในการแปลงสัญญาณไฟฟ้าที่ได้รับจากอุปกรณ์อื่นๆ 
+                เช่น คอมพิวเตอร์ โทรทัศน์ หรือเครื่องเสียง ให้กลายเป็นคลื่นเสียงที่เราสามารถได้ยินได้</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+          <img src="assets/pin/pin10.png" alt="รูปภาพ">
+        </div>
+        <div class="content">
+            <h2>Relay</h2>
+            <p>รีเลย์ คือ อุปกรณ์อิเล็กทรอนิกส์ที่ใช้กันอย่างแพร่หลายในวงจรควบคุมอัตโนมัติ ทำหน้าที่เปรียบเสมือนสวิตช์ไฟ 
+               ที่ใช้แรงดันไฟฟ้าในการเปิดและปิดอุปกรณ์ไฟฟ้าเพื่อควบคุมวงจรต่างๆ</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+          <img src="assets/pin/pin11.png" alt="รูปภาพ">
+        </div>
+        <div class="content">
+            <h2>Wooden Cabinet</h2>
+            <p>เป็นเฟอร์นิเจอร์ชิ้นหนึ่งที่ได้รับความนิยมมาอย่างยาวนาน เนื่องจากมีความสวยงาม ทนทาน และสามารถปรับเปลี่ยนรูปแบบได้หลากหลาย ทำให้เข้ากับการตกแต่งบ้านได้ทุกสไตล์ 
+                ไม่ว่าจะเป็นสไตล์โมเดิร์น คลาสสิก หรือวินเทจ/p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+          <img src="assets/pin/pin12.png" alt="รูปภาพ">
+        </div>
+        <div class="content">
+            <h2>Leakproof Adhesive</h2>
+            <p>สารกันซึม เป็นวัสดุที่ออกแบบมาเพื่ออุดรอยรั่ว ป้องกันไม่ให้น้ำหรือของเหลวอื่นๆ ซึมผ่านได้ ซึ่งมีประโยชน์ในการใช้งานหลากหลาย เช่น
+               ซ่อมแซมรอยร้าวในหลังคา รอยรั่วในท่อ หรือใช้ในการติดตั้งวัสดุป้องกันน้ำ</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+          <img src="assets/pin/pin13.png" alt="รูปภาพ">
+        </div>
+        <div class="content">
+            <h2>MicroUSB to USB Cable </h2>
+            <p> เป็นสายที่ใช้เชื่อมต่ออุปกรณ์อิเล็กทรอนิกส์ต่างๆ เช่น สมาร์ทโฟน แท็บเล็ต กล้องดิจิตอล หรืออุปกรณ์พกพาอื่นๆ เข้ากับคอมพิวเตอร์ หรือแหล่งจ่ายไฟ</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="image">
+          <img src="assets/pin/pin14.png" alt="รูปภาพ">
+        </div>
+        <div class="content">
+            <h2>LED Tube</h2>
+            <p>เป็นอุปกรณ์อิเล็กทรอนิกส์ชนิดหนึ่งที่ให้แสงสว่าง โดยมีขนาดเส้นผ่านศูนย์กลางประมาณ 5 มิลลิเมตร ซึ่งถือว่าค่อนข้างเล็กเมื่อเทียบกับหลอดไฟทั่วไป แต่ก็ให้แสงสว่างได้อย่างมีประสิทธิภาพ</p>
+        </div>
+    </div>
+
+
+    <!-- Additional containers for other components follow the same structure -->
+
+</body>
+</html>
